@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexarley | Dev & Design</title>
+    <!---Librería FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Nexarley</a>
+
+        <i class="fa-solid fa-bars menu-icon"></i>
+
+        <nav class="navbar">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#about">Quienes Somos</a>
+        <a href="#contact">Contacto</a>
+        </nav>
+    </header>    
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="/image/LogoNexarley.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hola, somos <span>Nexarley</span></h1>
+            <h3 class="typing-text">Tu equipo de <span></span></h3>
+            <p>En Nexarley, llevamos tus ideas al mundo digital con creatividad y funcionalidad. Diseñamos y desarrollamos sitios web que se ven bien y funcionan mejor. Estamos contigo en el camino para que tu marca empiece a tener presencia online. ¿Tienes un nuevo proyecto o quieres renovar tu web? Estamos listos para ayudarte. </p>
+
+            <div class="social-icon">
+                <a href="https://www.facebook.com/nexarleystudio"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/nexarley.studio?igsh=MWFyc2R6bDRsaTdkdO=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/526568548144"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Nuestros <span>Servicios</span></h2>
+
+        <div class="services-container">
+<!--Tarjeta 1-->
+            <a href="proyectos-web.html" class="service-box-link">
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Diseño Y Desarrollo Web</h4>
+                        <p>Diseñamos y desarrollamos sitios web funcionales, atractivos y adaptados a tus necesidades. Cuidamos cada detalle técnico y visual para brindarte una gran experiencia.</p>
+                        <p class="click">Presiona Aquí!!</p>
+                    </div>
+                </div>
+            </a>
+<!--Tarjeta 2-->
+            <a href="proyectos-edicion.html" class="service-box-link">
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>Edición De Contenido</h4>
+                        <p>Editamos contenido visual y audiovisual para redes sociales. Damos forma a tus ideas con imágenes y videos que se ven bien, se entienden y encajan con el estilo de tu marca.</p>
+                        <p class="click">Presiona Aquí!!</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">Quienes <span>Somos</span></h2>
+        <div class="about-container">
+            <!-- Tarjeta 1: -->
+            <a href="#about" class="about-box-link">
+                <div class="about-box">
+                    <i class="fa-solid fa-book-open"></i>
+                    <div class="about-info">
+                        <h4>Nuestro Inicio</h4>
+                        <p>En Nexarley, somos un equipo  creativo que disfruta dar vida a ideas digitales. Empezamos este proyecto con muchas ganas de aprender, crecer y ayudar a otros a tener su espacio en internet.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Tarjeta 2: -->
+            <a href="#about" class="about-box-link">
+                <div class="about-box">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <div class="about-info">
+                        <h4>Lo Que Creemos</h4>
+                        <p>Creemos en el diseño funcional, en el contenido con propósito y en el trabajo bien hecho, sin complicaciones. Buscamos que cada proyecto tenga un estilo único y sea fácil de usar.
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <!-- Tarjeta 3: -->
+            <a href="#about" class="about-box-link">
+                <div class="about-box">
+                    <i class="fa-solid fa-rocket"></i>
+                    <div class="about-info">
+                        <h4>Como Trabajamos</h4>
+                        <p>Nos tomamos cada proyecto en serio y cuidamos cada detalle. Nos gusta ver como una idea se convierte en algo real. Si buscas gente comprometida y con muchas ganas de crecer contigo, aquí estamos.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contacto<span>!</span></h2>
+
+        <div class="contact-container">
+
+            <form class="contact-form" action="https://formspree.io/f/mkgbkqdk" method="post">
+                <!--Nombre y apellido-->
+                <div class="input-box">
+                    <input type="text" name="Nombre" placeholder="Nombre y apellido" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <!--Correo electrónico-->
+                <div class="input-box">
+                    <input type="email" name="Email" required placeholder="Correo electrónico">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <!--Asunto-->
+                <div class="input-box">
+                    <input type="text" name="Asunto" placeholder="Asunto">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <!--Mensaje-->
+                <div class="input-box">
+                    <textarea name="Mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+                </div>
+                <!--Botón de enviar-->
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/nexarleystudio"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/nexarley.studio?igsh=MWFyc2R6bDRsaTdkdO=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/526568548144"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#about">Quienes Somos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#">Aviso de privacidad</a></li>
+        </ul>
+        <p class="copyright">
+            © Nexarley | All Right Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
