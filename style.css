@@ -115,7 +115,7 @@ html::-webkit-scrollbar-thumb {
 }
 section {
     min-height: 105vh;
-    padding: 5rem 7% 4rem;
+    padding: 3rem 9% 3rem;
 }
 .click{
     color: var(--main-color);
@@ -679,7 +679,7 @@ footer .copyright {
 @media (max-width: 768px) {
   section.contact {
     min-height: auto !important;
-    padding-bottom: 5rem !important;
-    padding-top: 8rem !important; /* espacio por el header */
+    padding-bottom: 10rem !important;
+    padding-top: 2rem !important; /* espacio por el header */
   }
 }
