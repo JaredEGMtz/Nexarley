@@ -24,7 +24,7 @@ body {
     background: var(--bg-color);
     font-family: "Poppins", sans-serif;
     color: var(--text-color);
-    padding top: 8rem;
+    padding-top: 8rem;
 }
 html::-webkit-scrollbar {
     width: 0.8rem;
@@ -385,7 +385,7 @@ span {
 .about-info p {
     font-size: 1.6rem;
     font-weight: 400;
-    max-height: 170px;
+    max-height: 150px;
     margin: auto;
 }
         /*i iconos*/
