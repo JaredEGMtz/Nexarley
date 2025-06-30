@@ -114,7 +114,7 @@ html::-webkit-scrollbar-thumb {
     }
 }
 section {
-    min-height: 100vh;
+    min-height: 125vh;
     padding: 5rem 7% 4rem;
 }
 .click{
@@ -674,4 +674,9 @@ footer .copyright {
     .contact form .input-box input {
         width: 100%;
     }
+}
+@media (max-width: 768px) {
+  #contact {
+    padding-bottom: 1rem !important;
+  }
 }
