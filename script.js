@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    // --- Lógica para el menú de hamburguesa ---
+    // --- Lógica para el menú ---
     const menuIcon = document.querySelector('.menu-icon');
     const navbar = document.querySelector('.navbar');
 
-    // Comprobamos si los elementos existen antes de añadir el evento (buena práctica)
+    // Comprobamos si los elementos existen antes de añadir el evento 
     if (menuIcon && navbar) {
         menuIcon.addEventListener('click', () => {
             navbar.classList.toggle('active');
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- EFECTO 3D TILT EN PROYECTOS ---
     const projectCards = document.querySelectorAll('.project-card');
-    const maxRotate = 12; // Puedes ajustar la intensidad del efecto aquí
+    const maxRotate = 12; // Sirve para ajustar la intensidad del efecto 
 
     projectCards.forEach(card => {
         card.addEventListener('mousemove', (e) => {

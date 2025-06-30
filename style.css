@@ -114,6 +114,7 @@ html::-webkit-scrollbar-thumb {
     }
 }
 section {
+    min-height: 100vh;
     padding: 5rem 7% 4rem;
 }
 .click{
@@ -314,7 +315,6 @@ span {
     color: inherit; /* Hace que el texto herede el color de su contenedor, en lugar de ser azul */
 }
 
-/* Hacemos que el hover siga funcionando igual de bien */
 .service-box-link:hover .service-box {
     background: transparent;
     color: var(--text-color);
@@ -326,7 +326,7 @@ span {
     text-align: left;
     max-height: 200px;
     justify-content: center;
-    align-items: center; /*modificado center*/
+    align-items: center;
     padding: 3em;
 }
 .service-info h4 {
@@ -359,7 +359,7 @@ span {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
 }
-        /* Reutilizamos los estilos de las tarjetas de servicios para consistencia */
+
 .about-box {
         background-color: var(--bg-color);
         border: 1px solid var(--main-color);
@@ -519,7 +519,7 @@ footer .copyright {
     font-size: 2.2rem;
     color: var(--main-color);
     margin-bottom: 1rem;
-    transform: translateZ(60px); /* Título "flota" más cerca */
+    transform: translateZ(60px);
 }
 
 .project-info p {
