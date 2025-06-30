@@ -672,12 +672,7 @@ footer .copyright {
     }
 }
 
-@media (max-width: 768px) {
-  section.contact {
-    min-height: auto !important;
-    padding-bottom: 2rem !important;
-  }
-}
+
 @media (max-width: 995px) {
     body {
         padding-top: 6rem; /* menos espacio para header más pequeño */
