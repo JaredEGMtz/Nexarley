@@ -643,35 +643,56 @@ footer .copyright {
     color: black;
     transform: scale(1.03);
 }
+/* Contenedor */
 .consent-box {
   display: flex;
-  align-items: flex-start;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 1rem;
   margin: 1.5rem 0;
   font-size: 1.4rem;
   color: var(--text-color);
-  line-height: 1.4;
+  flex-wrap: wrap;
 }
 
+/* Ocultar el checkbox original */
 .consent-box input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--main-color);
   width: 1.6rem;
   height: 1.6rem;
-  margin-top: 0.3rem; /* alinea con la primera línea del texto */
-  flex-shrink: 0;
+  border-radius: 4px;
   cursor: pointer;
+  position: relative;
+  display: inline-block;
+  transition: all 0.2s ease;
 }
 
-.consent-box label {
+/* Mostrar check cuando esté marcado */
+.consent-box input[type="checkbox"]:checked::after {
+  content: '✔';
+  position: absolute;
+  color: var(--main-color);
+  font-size: 1.1rem;
+  left: 0.2rem;
+  top: 0rem;
+}
+
+/* Texto */
+.consent-box span {
+  line-height: 1.4;
   flex: 1;
 }
 
+/* Link */
 .consent-box a {
   color: var(--main-color);
   text-decoration: underline;
 }
 
 .consent-box a:hover {
-  color: var(--main-color);
+  color: #a260f7;
 }
 
 @keyframes shake {
