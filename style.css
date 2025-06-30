@@ -642,20 +642,24 @@ footer .copyright {
     background: var(--main-color);
     color: black;
     transform: scale(1.03);
-}
 .consent-box {
   margin: 1.5rem 0;
   font-size: 1.4rem;
   color: var(--text-color);
   user-select: none;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* espacio entre checkbox y texto */
 }
 
 .consent-box input[type="checkbox"] {
-  margin-right: 1rem;
+  margin: 0; /* quitamos margen derecho para usar gap */
   width: 1.4rem;
   height: 1.4rem;
-  vertical-align: middle;
   cursor: pointer;
+  flex-shrink: 0;
+  vertical-align: initial; /* opcional */
 }
 
 .consent-box a {
@@ -665,7 +669,7 @@ footer .copyright {
 }
 
 .consent-box a:hover {
-  color: #a260f7;
+  color: var(--main-color);
 }
 
 @keyframes shake {
