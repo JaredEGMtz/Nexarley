@@ -723,7 +723,7 @@ footer .copyright {
   background: var(--main-color);
   color: black;
   padding: 1rem 2rem;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   font-size: 1.6rem;
