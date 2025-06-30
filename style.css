@@ -645,23 +645,24 @@ footer .copyright {
 }
 .consent-box {
   display: flex;
-  align-items: center;
-  gap: 0.8rem; /* espacio entre el checkbox y el texto */
+  align-items: flex-start;
+  gap: 0.6rem;
   margin: 1.5rem 0;
   font-size: 1.4rem;
   color: var(--text-color);
-  flex-wrap: wrap; /* permite que el texto pase a la siguiente línea si es necesario */
+  line-height: 1.4;
 }
 
 .consent-box input[type="checkbox"] {
   width: 1.6rem;
   height: 1.6rem;
+  margin-top: 0.3rem; /* alinea con la primera línea del texto */
   flex-shrink: 0;
   cursor: pointer;
 }
 
 .consent-box label {
-  line-height: 1.5;
+  flex: 1;
 }
 
 .consent-box a {
