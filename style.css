@@ -24,6 +24,7 @@ body {
     background: var(--bg-color);
     font-family: "Poppins", sans-serif;
     color: var(--text-color);
+    padding top: 8rem;
 }
 html::-webkit-scrollbar {
     width: 0.8rem;
@@ -114,13 +115,16 @@ html::-webkit-scrollbar-thumb {
     }
 }
 section {
-    min-height: 105vh;
-    padding: 3rem 7% 3rem;
+    padding: 5rem 9% 5rem;
 }
-.click{
+span {
+    color: var(--main-color);
+}
+.click {
     color: var(--main-color);
     text-align: center;
     line-height: 2;
+    font-size: 7rem;
     font-size: 10rem;
     font-weight: 500;
 }
@@ -135,17 +139,6 @@ section {
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.2;
-}
-span {
-    color: var(--main-color);
-}
-.click {
-    color: var(--main-color);
-    text-align: center;
-    line-height: 2;
-    font-size: 7rem;
-    font-size: 10rem;
-    font-weight: 500;
 }
 .home-content h3 {
     font-size: 4rem;
@@ -392,7 +385,7 @@ span {
 .about-info p {
     font-size: 1.6rem;
     font-weight: 400;
-    max-height: 150px;
+    max-height: 170px;
     margin: auto;
 }
         /*i iconos*/
