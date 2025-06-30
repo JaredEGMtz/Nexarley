@@ -644,40 +644,35 @@ footer .copyright {
     transform: scale(1.03);
 }
 .consent-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* espacio entre el checkbox y el texto */
   margin: 1.5rem 0;
   font-size: 1.4rem;
   color: var(--text-color);
-  user-select: none;
-  max-width: 100%;
-  overflow-wrap: break-word;
-}
-
-.consent-box label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  cursor: pointer;
-  line-height: 1.3;
-  word-break: break-word;
+  flex-wrap: wrap; /* permite que el texto pase a la siguiente línea si es necesario */
 }
 
 .consent-box input[type="checkbox"] {
-  margin: 0;
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
   flex-shrink: 0;
   cursor: pointer;
+}
+
+.consent-box label {
+  line-height: 1.5;
 }
 
 .consent-box a {
   color: var(--main-color);
   text-decoration: underline;
-  cursor: pointer;
 }
 
 .consent-box a:hover {
-  color: var(--main-color); 
+  color: var(--main-color);
 }
+
 @keyframes shake {
     0%, 100% {transform: translateX(0);}
     10%, 30%, 50%, 70%, 90% {transform: translateX(-5px);}
