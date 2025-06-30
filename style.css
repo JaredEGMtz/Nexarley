@@ -675,8 +675,7 @@ footer .copyright {
 @media (max-width: 768px) {
   section.contact {
     min-height: auto !important;
-    padding-bottom: 4rem !important;
-    padding-top: 2rem !important; /* espacio por el header */
+    padding-bottom: 2rem !important;
   }
 }
 @media (max-width: 995px) {
