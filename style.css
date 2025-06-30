@@ -642,6 +642,7 @@ footer .copyright {
     background: var(--main-color);
     color: black;
     transform: scale(1.03);
+}
 .consent-box {
   margin: 1.5rem 0;
   font-size: 1.4rem;
