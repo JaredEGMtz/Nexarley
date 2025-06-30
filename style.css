@@ -114,7 +114,7 @@ html::-webkit-scrollbar-thumb {
     }
 }
 section {
-    min-height: 110vh;
+    min-height: 105vh;
     padding: 5rem 7% 4rem;
 }
 .click{
