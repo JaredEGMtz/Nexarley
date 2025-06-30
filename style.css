@@ -643,6 +643,30 @@ footer .copyright {
     color: black;
     transform: scale(1.03);
 }
+.consent-box {
+  margin: 1.5rem 0;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  user-select: none;
+}
+
+.consent-box input[type="checkbox"] {
+  margin-right: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.consent-box a {
+  color: var(--main-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.consent-box a:hover {
+  color: #a260f7;
+}
 
 @keyframes shake {
     0%, 100% {transform: translateX(0);}
@@ -687,4 +711,47 @@ footer .copyright {
     section {
         padding: 2rem 5%;
     }
+}
+
+/*Aviso de Privacidad Cookies*/
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-color);
+  color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  z-index: 9999;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+}
+
+.cookie-banner p {
+  margin: 0;
+  flex: 1;
+}
+
+.cookie-banner a {
+  color: black;
+  text-decoration: underline;
+}
+
+.cookie-banner button.btn {
+  background-color: black;
+  color: var(--main-color);
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cookie-banner button.btn:hover {
+  background-color: #222;
 }
