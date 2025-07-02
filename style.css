@@ -129,6 +129,9 @@ span {
     font-size: 10rem;
     font-weight: 500;
 }
+.descripciones {
+    text-align: left;
+}
 .home {
     display: flex;
     justify-content: center;
